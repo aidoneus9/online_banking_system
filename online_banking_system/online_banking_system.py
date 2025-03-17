@@ -135,7 +135,6 @@ class BankingService:
          if choice == "4":
             print("=====🧾 거래 내역=====")
             user.account.get_transactions()
-
 ##################################################
 def main() -> None:
     banking_service = BankingService()
